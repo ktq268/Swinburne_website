@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/course.css" />
+    <title>Chương trình đào tạo Swinburne Việt Nam</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://swinburne-vn.edu.vn/wp-content/themes/swinburne/resources/assets/images/header/FPT.png"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <div class="first-menu">
+        <div class="fcontainer">
+          <ul class="first-group">
+            <li class="fg" id="coso">
+              <a style="font-size: 12px">CƠ SỞ</a>
+              <ul class="sub-menu">
+                <li class="sub">Hà Nội</li>
+                <li class="sub">Đà Nẵng</li>
+                <li class="sub">HCM</li>
+              </ul>
+            </li>
+            <li class="fg"><a style="font-size: 12px">SỰ KIỆN</a></li>
+            <li class="fg"><a style="font-size: 12px">TIN TỨC</a></li>
+            <li class="fg"><a style="font-size: 12px">THƯ VIỆN</a></li>
+            <li class="fg" id="sinhvienhientai">
+              <a style="font-size: 12px">SINH VIÊN HIỆN TẠI</a>
+              <ul class="sub-menu">
+                <li class="sub">Đăng nhập</li>
+                <li class="sub">Đăng nhập Canvas</li>
+                <li class="sub">Quy định đào tạo</li>
+                <li class="sub">Dịch vụ sinh viên</li>
+                <li class="sub">Hỗ trợ học tập[Swinburne Academic Success]</li>
+                <li class="sub">Kết nối phụ huynh</li>
+              </ul>
+            </li>
+            <li class="fg" id="cuusinhvien">
+              <a style="font-size: 12px">CỰU SINH VIÊN</a>
+              <ul class="sub-menu">
+                <li class="sub">Tham gia vào cộng đồng</li>
+                <li class="sub">Quyền lợi và dịch vụ</li>
+                <li class="sub">Kết nối</li>
+                <li class="sub">Liên hệ</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="second-menu">
+        <div class="scontainer">
+          <div class="logo">
+            <a href="./Homepage.html"
+              ><img
+                src="../img/Homepage img/swin_logo.png"
+                class="swin"
+                alt="swin_logo"
+            /></a>
+          </div>
+          <div class="right-second-menu">
+            <ul class="second-group">
+              <li class="sg" id="vechungtoi">
+                <a
+                  style="
+                    font-size: 12px !important;
+                    text-decoration: none !important;
+                  "
+                >
+                  VỀ CHÚNG TÔI
+                  <span><i class="fa-solid fa-angle-down"></i></span
+                ></a>
+                <ul class="sub-menu1">
+                  <li class="sub1" id="vechungtoi">
+                    <a
+                      style="
+                        font-size: 18px;
+                        color: black;
+                        text-decoration: none;
+                      "
+                      id="special-hover"
+                      href="./about_us.html"
+                      >Swinburne Việt Nam Alliance Program</a
+                    >
+                  </li>
+                  <li class="sub1">Lý do lựa chọn</li>
+                  <li class="sub1">Giảng viên và chuyên gia</li>
+                  <li class="sub1">Cơ hội việc làm</li>
+                  <li class="sub1">Câu hỏi thường gặp</li>
+                  <li class="sub1">Tải tài liệu</li>
+                </ul>
+              </li>
+              <li class="sg" id="khoahoc">
+                <a
+                  style="font-size: 12px; color: black; text-decoration: none"
+                  id="special-hover"
+                  href="./course.html"
+                  >KHÓA HỌC</a
+                >
+
+                <span><i class="fa-solid fa-angle-down"></i></span>
+                <ul class="sub-menu1">
+                  <li class="sub1">Tìm kiếm khóa học</li>
+                  <li class="sub1">Học bổng</li>
+                  <li class="sub1">Dự án sinh viên</li>
+                </ul>
+              </li>
+              <li class="sg" style="font-size: 12px; margin-top: 0.56%">
+                TRẢI NGHIỆM SINH VIÊN
+              </li>
+              <li class="sg">
+                <a
+                  style="font-size: 12px; color: black; text-decoration: none"
+                  id="special-hover"
+                  class="sg"
+                  href="./Industry-Integration.html"
+                  >KẾT NỐI DOANH NGHIỆP</a
+                >
+              </li>
+              <li class="sg" style="font-size: 12px; margin-top: 0.56%">
+                NGHIÊN CỨU
+              </li>
+              <li class="sg" id="tsinh">
+                <a
+                  style="font-size: 12px; color: black; text-decoration: none"
+                  id="special-hover"
+                  href="./Admission.html"
+                  >TUYỂN SINH</a
+                >
+                <span><i class="fa-solid fa-angle-down"></i></span>
+                <ul class="sub-menu1">
+                  <li class="sub1">
+                    <a
+                      style="
+                        font-size: 18px;
+                        color: black;
+                        text-decoration: none;
+                      "
+                      id="special-hover"
+                      href="./Admission.html"
+                      >Tuyển sinh 2024</a
+                    >
+                  </li>
+                  <li class="sub1">Học phí</li>
+                  <li class="sub1">Ngành đào tạo</li>
+                  <li class="sub1">Thủ tục tuyển sinh</li>
+                  <li class="sub1">Học bổng</li>
+                </ul>
+              </li>
+            </ul>
+            <div class="regbtn">
+              <button type="button">
+                <a
+                  style="font-size: 20px; text-decoration: none; color: white"
+                  href="./Register.html"
+                  >Đăng ký tìm hiểu
+                </a>
+              </button>
+
+              <a href="./Search.html" style="color: black"
+                ><i class="fa-solid fa-magnifying-glass" id="search"></i
+              ></a>
+
+              <img
+                src="../img/Homepage img/la-co-vuong-quoc-anh.jpg"
+                class="eng"
+                alt="eng_flag"
+                height="15 px"
+                ;
+                width="25 px;"
+                style="margin-left: 16px; margin-top: 43px"
+                link
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-course">
+      <div class="course-bg">
+        <div class="course-bg-container">
+          <img
+            src="../img/Course img/find-header.jpg"
+            alt=""
+            width="100%"
+            height="600px"
+          />
+        </div>
+      </div>
+      <div class="course-all-content">
+        <div class="course-text-and-banner">
+          <div class="text">
+            <article class="course-article">
+              <hr />
+              <h1>
+                Chương trình Đào tạo tại Swinburne Việt Nam Alliance Program
+              </h1>
+              <p>
+                Tại
+                <a href="index.html">Swinburne Việt Nam Alliance Program</a>,
+                bạn sẽ được lựa chọn những khóa học phù hợp với nhu cầu cá nhân,
+                giúp bạn hiểu rõ về ngành nghề mà bạn hướng tới. Ngoài ra, sinh
+                viên còn có các lựa chọn học tập đa dạng, có thể tạo nền tảng
+                vững chắc cho thành công trong sự nghiệp của họ sau này.
+              </p>
+              <h2 style="font-size: 22px; font-weight: bold">
+                Thông tin các ngành học trong chương trình đào tạo tuyển sinh
+                năm 2024
+              </h2>
+              <p style="text-align: justify">
+                Swinburne Việt Nam Alliance Progam hiện đang cung cấp cho sinh
+                viên chương trình đào tạo có chất lượng giảng dạy cao, dịch vụ
+                hạ tầng số (digital platform) và cơ sở vật chất hiện đại, kết
+                nối thực tiễn doanh nghiệp. Sinh viên sau khi tốt nghiệp sẽ được
+                trang bị đầy đủ về cả kiến thức lẫn kỹ năng cho tương lai.
+              </p>
+              <p style="text-align: justify">
+                Hiện nay, sinh viên học tập tại đây học
+                <a
+                  href="https://swinburne-vn.edu.vn/quy-dinh-dao-tao/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >cùng một chương trình, đánh giá theo cùng một tiêu chuẩn</a
+                >
+                như toàn thể sinh viên đang học tại Swinburne University of
+                Technology, Australia. Chương trình đào tạo gồm 3 ngành chính:
+              </p>
+              <ul>
+                <li>
+                  Ngành
+                  <a
+                    href="https://swinburne-vn.edu.vn/list-course/nganh-cong-nghe-thong-tin-computer-science/"
+                    >Công nghệ thông tin (Computer Science)</a
+                  >, bao gồm 4 chuyên ngành:
+                  <ul style="text-align: justify">
+                    <li>Trí tuệ nhân tạo (Artificial Intelligence)</li>
+                    <li>IoT (Internet of Things)</li>
+                    <li>Phát triển phần mềm (Software Development)</li>
+                    <li>Khoa học dữ liệu (Data Science)</li>
+                  </ul>
+                </li>
+              </ul>
+              <ul style="text-align: justify">
+                <li>
+                  Ngành
+                  <a
+                    href="https://swinburne-vn.edu.vn/list-course/truyen-thong-da-phuong-tien/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Truyền thông đa phương tiện (Media and Communication)</a
+                  >, bao gồm 3 chuyên ngành:
+                  <ul style="text-align: justify">
+                    <li>Truyền thông xã hội (Social Media)</li>
+                    <li>Quảng cáo (Advertising)</li>
+                    <li>
+                      Truyền thông và Quan hệ công chúng (Public Relations)
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <strong
+                >Đối với học xá tại Đà Nẵng, các ngành và chuyên ngành mở tuyển
+                sinh cho năm học 2024 bao gồm:</strong
+              >
+              <ul style="text-align: justify">
+                <li>
+                  Ngành
+                  <a
+                    href="https://swinburne-vn.edu.vn/list-course/kinh-doanh-vi/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Kinh doanh (Business)</a
+                  >, bao gồm 2 chuyên ngành:
+                  <ul style="text-align: justify">
+                    <li>Quản trị kinh doanh (Business Administration)</li>
+                    <li>Marketing (Marketing)</li>
+                  </ul>
+                </li>
+              </ul>
+              <ul style="text-align: justify">
+                <li>
+                  Ngành
+                  <a
+                    href="https://swinburne-vn.edu.vn/list-course/truyen-thong-da-phuong-tien/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Truyền thông đa phương tiện (Media and Communication)</a
+                  >, bao gồm 2 chuyên ngành:
+                  <ul style="text-align: justify">
+                    <li>Truyền thông xã hội (Social Media)</li>
+                    <li>
+                      Truyền thông và Quan hệ công chúng (Public Relations)
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  Ngành
+                  <a
+                    href="https://swinburne-vn.edu.vn/list-course/nganh-cong-nghe-thong-tin-computer-science/"
+                    >Công nghệ thông tin (Computer Science)</a
+                  >, bao gồm 2 chuyên ngành:
+                  <ul style="text-align: justify">
+                    <li>Trí tuệ nhân tạo (Artificial Intelligence)</li>
+                    <li>Phát triển phần mềm (Software Development)</li>
+                  </ul>
+                </li>
+              </ul>
+              <p>
+                Ngoài chương trình chuyên môn được cung cấp bởi Swinburne
+                University of Technology (Australia) như trên, các chương trình
+                sau thuộc chương trinh đào tạo chính thức tại Swinburne Việt
+                Nam:
+              </p>
+              <ul>
+                <li style="list-style-type: none">
+                  <ul style="text-align: justify">
+                    <li>
+                      <a
+                        href="https://swinburne-vn.edu.vn/list-course/cong-dan-toan-cau/"
+                        >Công dân toàn cầu</a
+                      >
+                      (Global Citizen)
+                    </li>
+                    <li>
+                      <a
+                        href="https://swinburne-vn.edu.vn/student/chuong-trinh-giao-duc-the-chat/"
+                        >Giáo dục thể chất</a
+                      >:&nbsp;Thực hiện mục tiêu mang lại trải nghiệm hạnh phúc
+                      trong quá trình học tập cũng như các qui định về đào tạo
+                      thể chất của Bộ Giáo dục và Đào tạo, Swinburne Việt Nam tổ
+                      chức chương trình giáo dục thể chất nằm nâng cao sức khoẻ
+                      về thể chất và tinh thần cho sinh viên.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <h2 style="font-size: 22px; font-weight: bold">
+                Chất lượng chương trình đào tạo
+              </h2>
+              <p>
+                Swinburne Việt Nam Alliance Program cam kết các chương trình đào
+                tạo đều tuân thủ và được kiểm định theo các tiêu chuẩn quốc tế
+                áp dụng cho
+                <a href="https://www.swinburne.edu.au"
+                  >Swinburne University of Technology, Australia</a
+                >. Về tổng thể, trường Đại học Công nghệ Swinburne xếp hạng 285
+                trong Bảng xếp hạng các trường Đại học trên toàn Thế giới (QS,
+                2024). Cụ thể từng ngành:
+              </p>
+              <ul style="text-align: justify">
+                <li>
+                  Ngành Khoa học máy tính nằm trong Top 150 chương trình tốt
+                  nhất thế giới (THE, 2024)
+                </li>
+                <li>
+                  Ngành Kinh doanh nằm trong Top 175 chương trình tốt nhất thế
+                  giới (THE, 2024)
+                </li>
+                <li>
+                  Ngành Truyền thông đa phương tiện nằm trong Top 250 chương
+                  trình tốt nhất thế giới (QS, 2023)
+                </li>
+              </ul>
+              <h2 style="font-size: 22px; font-weight: bold">
+                Phương pháp đào tạo
+              </h2>
+              <ul style="text-align: justify">
+                <li>
+                  Các giảng viên giảng dạy tại Swinburne Vietnam Alliance
+                  Program đều có trình độ Thạc sỹ trở lên, tốt nghiệp tại các
+                  đại học quốc tế có tên tuổi trên trên thế giới, có công trình
+                  nghiên cứu công bố quốc tế và kinh nghiệm làm việc thực tiễn.
+                </li>
+                <li>
+                  Sinh viên sẽ được hướng dẫn các nội dung thực hành và liên kết
+                  các vấn đề thực tiễn bởi Mentor - chuyên gia trong ngành. Từ
+                  đó, sinh viên sẽ có cơ hội tiếp xúc và làm quen những mô hình
+                  kinh doanh mới cùng công nghệ tiên tiến nhất.
+                </li>
+                <li>
+                  Ngoài việc học trên giảng đường, sinh viên sẽ được áp dụng
+                  kiến thức vào thực tế thông qua các dự án liên quan. Với việc
+                  học qua trải nghiệm, tính thực tiễn của các môn học cùng việc
+                  bắt kịp xu hướng trong thời kì công nghiệp 4.0 sẽ được đảm
+                  bảo.
+                </li>
+                <li>
+                  Sinh viên sẽ được cấp account từ Swinburne Australia, sử dụng
+                  hệ thống tài liệu học và nền tảng học tập Canvas đồng nhất với
+                  hệ thống tại Swinburne Úc. Hệ thống bao gồm: các bài giảng,
+                  tài liệu tham khảo, thư viện điện tử… giúp cho sinh viên có
+                  cảm giác như đang học tập tại Úc.
+                </li>
+              </ul>
+              <p>
+                &nbsp; Để biết rõ hơn về chương trình học, vui lòng liên hệ với
+                Ban Tư vấn đào tạo qua hotline 19006412 hoặc 0939 403 555. Để
+                đăng kí tìm hiểu về thông tin tuyển sinh cũng như đăng kí nộp hồ
+                sơ xét tuyển, vui lòng truy cập:
+              </p>
+              <ul style="text-align: justify">
+                <li>
+                  Đăng kí tìm hiểu về thông tin tuyển sinh:
+                  <a href="https://tuyensinh.swin.edu.vn/">swin.edu.vn</a>
+                </li>
+                <li>
+                  Đăng kí nộp hồ sơ xét tuyển:
+                  <a href="https://swinburne-vn.edu.vn/phieu-dang-ky/"
+                    >swinburne-vn.edu.vn/phieu-dang-ky/</a
+                  >
+                </li>
+              </ul>
+              <p>
+                <center>
+                  <img
+                    src="../img/Course img/vid1.webp"
+                    alt=""
+                    style="width: 80%"
+                  />
+                </center>
+              </p>
+              <p style="text-align: center">
+                <em>Swinburne Vietnam Alliance Program of Champions</em>
+              </p>
+              <p>
+                <center>
+                  <img
+                    src="../img/Course img/maxresdefault.jpg"
+                    alt=""
+                    style="width: 80%"
+                  />
+                </center>
+              </p>
+              <p style="text-align: center">
+                <em
+                  >VTV1 - Du học tại chỗ là gì? - Swinburne Vietnam Alliance
+                  Program</em
+                >
+              </p>
+            </article>
+            <div class="find-a-course">
+              <h2>TÌM KHÓA HỌC</h2>
+              <div class="fac-all-item">
+                <div class="single-unit">
+                  <img
+                    src="../img/Course img/course-gc.jpg"
+                    alt=""
+                    width="100%"
+                    height="80%"
+                    style="object-fit: cover"
+                  />
+                  <br />
+                  <h4 class="single-unit-title">Công dân toàn cầu</h4>
+                  <p style="background-color: #f6f6f6">
+                    Giới thiệu chung Chương trình Công dân toàn cầu (Global
+                    Citizenship Education Program) là chương trình đào tạo được
+                    nghiên…
+                    <button class="single-unit-btn">
+                      <i class="fa-solid fa-paper-plane"></i> ĐĂNG KÝ NHẬP HỌC
+                    </button>
+                  </p>
+                </div>
+                <div class="single-unit">
+                  <img
+                    src="../img/Course img/347582015_639503764280719_609415984024062137_n-1.jpg"
+                    alt=""
+                    width="100%"
+                    height="80%"
+                    style="object-fit: cover"
+                  />
+
+                  <h4
+                    class="single-unit-title"
+                    style="background-color: #f6f6f6"
+                  >
+                    Ngành Công nghệ thông tin (Computer Science)
+                  </h4>
+                  <p style="background-color: #f6f6f6; margin-top: -9px">
+                    Giới thiệu chung Trong thời đại công nghệ 4.0, Công nghệ
+                    thông tin (CNTT) trở thành ngành nghề hấp dẫn…
+                    <button class="single-unit-btn">
+                      <i class="fa-solid fa-paper-plane"></i> ĐĂNG KÝ NHẬP HỌC
+                    </button>
+                  </p>
+                </div>
+                <div class="single-unit">
+                  <img
+                    src="../img/Course img/course-bus.jpg"
+                    alt=""
+                    width="100%"
+                    height="80%"
+                    style="object-fit: cover"
+                  />
+                  <br />
+                  <h4 class="single-unit-title">Ngành Kinh doanh</h4>
+                  <p style="background-color: #f6f6f6">
+                    GIỚI THIỆU CHUNG Sự phát triển của công nghệ đang tạo nên
+                    những cuộc cách mạng trong mô hình hoạt…
+                    <button class="single-unit-btn">
+                      <i class="fa-solid fa-paper-plane"></i> ĐĂNG KÝ NHẬP HỌC
+                    </button>
+                  </p>
+                </div>
+                <br />
+                <div class="single-unit" id="media">
+                  <img
+                    src="../img/Course img/Media-1.jpeg"
+                    alt=""
+                    width="100%"
+                    height="80%"
+                    style="object-fit: cover"
+                  />
+
+                  <h4
+                    class="single-unit-title"
+                    style="background-color: #f6f6f6"
+                  >
+                    Ngành Truyền thông Đa phương tiện
+                  </h4>
+                  <p style="background-color: #f6f6f6; margin-top: -5.5%">
+                    Giới thiệu chung Chúng ta đang sống trong một thế giới mà
+                    mọi thứ được kết nối với nhau hơn…
+                    <button class="single-unit-btn">
+                      <i class="fa-solid fa-paper-plane"></i> ĐĂNG KÝ NHẬP HỌC
+                    </button>
+                  </p>
+                </div>
+
+                <div class="video">
+                  <div class="course-video-title">
+                    <h2>Video</h2>
+                  </div>
+
+                  <div class="course-video-container">
+                    <img
+                      src="../img/Course img/course-video.webp"
+                      alt=""
+                      style="width: 100%; height: 55%"
+                    />
+                  </div>
+                  <hr />
+                  <div class="course-news">
+                    <div class="course-news-container">
+                      <h2 class="news-title">TIN TỨC</h2>
+                      <div class="main-news">
+                        <img
+                          src="../img/Course img/1emgai.png"
+                          alt=""
+                          width="100%"
+                        />
+                        <h5>
+                          Journey to Australia: Đừng lo nếu lỡ "chệch nhịp"
+                        </h5>
+                      </div>
+                      <div class="aside-news">
+                        <div class="news1">
+                          <img
+                            src="../img/Course img/news1.png"
+                            alt=""
+                            width="100%"
+                            height="50%"
+                          />
+                          <h5>
+                            Swinburne Việt Nam mừng sinh nhật 5 tuổi: Một
+                            SwinChella ngập tràn cảm xúc
+                          </h5>
+                        </div>
+                        <div class="news2">
+                          <img
+                            src="../img/Course img/news2.png"
+                            alt=""
+                            width="100%"
+                          />
+                          <h5>
+                            Sinh viên Singapore và chuyến trao đổi ngắn hạn tại
+                            Swinburne Việt Nam: Kết nối văn hóa – sẻ chia kiến
+                            thức
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="banner">
+            <ul class="first-banner">
+              <li
+                class="fbanner"
+                style="background-color: #dc2d27; border: none"
+              >
+                <i class="fa-solid fa-paper-plane"></i> ĐĂNG KÝ TÌM HIỂU
+              </li>
+              <li class="fbanner">
+                <i class="fa-solid fa-download"></i> Tải tài liệu
+              </li>
+              <li class="fbanner">
+                <i class="fa-regular fa-file-code"></i> Đăng ký học
+              </li>
+            </ul>
+            <ul class="second-banner" style="margin-top: 10%">
+              <li
+                class="sbanner"
+                style="background-color: #dc2d27; border: none"
+              >
+                LIÊN HỆ VỚI CHÚNG TÔI
+              </li>
+              <li class="sbanner">
+                <i class="fa-solid fa-location-dot"></i> Số 2 Dương Khuê, Cầu
+                Giấy, Hà Nội | A35, Bạch Đằng, Quận Tân Bình, TP. Hồ Chí Minh |
+                Lô 1+2-A14-16 Khu Công Viên Bắc đài tưởng niệm, đường 2 tháng 9,
+                Hòa Cường Bắc, Hải Châu, Đà Nẵng
+              </li>
+              <li class="sbanner">
+                <i class="fa-solid fa-phone"></i> GỌI NGAY 0939 403 555
+              </li>
+              <li class="sbanner">
+                <i class="fa-solid fa-paper-plane"></i> swinburne@fe.edu.vn
+              </li>
+              <li class="sbanner">
+                <i class="fa-brands fa-facebook"></i> @Swinburne
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-3 col-sm-12 col-12"
+            id="footer-swinburnelogo"
+            style="background-color: #343642"
+          >
+            <div class="logo-footer">
+              <a href="https://swinburne-vn.edu.vn/">
+                <img
+                  src="../img/Footer img/Footer-SwinburneLogo.png"
+                  alt="footer for swinburne logo"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-md-9 col-sm-12 col-12"
+            style="background-color: #343642"
+          >
+            <div class="row">
+              <div
+                class="col-lg-3 col-md-6 col-sm-6 col-12"
+                style="padding-left: 15px; padding-right: 15px"
+              >
+                <div class="single-item-ft">
+                  <h2>Swinburne Việt Nam</h2>
+                  <div class="menu-footer-col1-tieng-viet-container">
+                    <ul class="menu-footer-col1-tieng-viet" class="footer-col1">
+                      <li id="SVNAP">
+                        <a href="">Swinburne Việt Nam Alliance Program</a>
+                      </li>
+                      <li id="TSLC">
+                        <a href="">Tại sao lựa chọn?</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-3 col-md-6 col-sm-6 col-12"
+                style="padding-left: 15px; padding-right: 15px"
+              >
+                <div class="single-item-ft">
+                  <h2>Tuyển sinh</h2>
+                  <div class="menu-footer-col1-tieng-viet-container">
+                    <ul class="menu-footer-col2-tieng-viet" class="footer-col2">
+                      <li id="TS2024">
+                        <a href="">Swinburne Việt Nam Alliance Program</a>
+                      </li>
+                      <li id="TTTS">
+                        <a href="">Tại sao lựa chọn?</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-3 col-md-6 col-sm-6 col-12"
+                style="padding-left: 15px; padding-right: 15px"
+              >
+                <div class="single-item-ft">
+                  <h2>Nghiên cứu</h2>
+                  <div class="menu-footer-col3-tieng-viet-container">
+                    <ul class="menu-footer-col3-tieng-viet" class="footer-col3">
+                      <li id="NC">
+                        <a href="">Nghiên cứu </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-3 col-md-6 col-sm-6 col-12"
+                style="padding-left: 15px; padding-right: 15px"
+              >
+                <div class="single-item-ft">
+                  <h2>Sinh viên Swinburne</h2>
+                  <div class="menu-footer-col4-tieng-viet-container">
+                    <ul class="menu-footer-col4-tieng-viet" class="footer-col4">
+                      <li id="DN">
+                        <a href="">Đăng nhập</a>
+                      </li>
+                      <li id="DVSV">
+                        <a href="">Dịch vụ sinh viên</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-12"
+                style="max-width: 100%; margin-top: 20px; padding-bottom: 67px"
+              >
+                <div class="footer-addresses">
+                  <h2>Liên hệ với Swinburne Việt Nam</h2>
+                  <div class="footer-addresses-intro">
+                    <div class="intro-contents">
+                      <div class="row">
+                        <div class="col">
+                          <ul>
+                            <li>
+                              <div class="ADDRESS">
+                                <div
+                                  id="ADDRESS-icon"
+                                  style="padding-bottom: 10px"
+                                >
+                                  <i
+                                    class="fa-solid fa-location-dot"
+                                    style="
+                                      color: rgb(246, 104, 104);
+                                      float: left;
+                                      padding-right: 5px;
+                                      font-size: 15px;
+                                    "
+                                  ></i>
+                                  <a
+                                    href="https://maps.app.goo.gl/z72iRjwsEBpPPC5q8"
+                                    >Số 2 Dương Khuê, Quận Cầu Giấy, TP. Hà
+                                    Nội</a
+                                  >
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="PHONENUMBER">
+                                <div
+                                  id="PHONENUMER-icon"
+                                  style="padding-bottom: 10px"
+                                >
+                                  <i
+                                    class="fa-solid fa-phone"
+                                    style="
+                                      color: rgb(246, 104, 104);
+                                      float: left;
+                                      padding-right: 5px;
+                                      font-size: 15px;
+                                    "
+                                  ></i>
+                                  <a href="">0939 403 555</a>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="EMAIL">
+                                <div class="EMAIL-icon">
+                                  <i
+                                    class="fa-solid fa-envelope"
+                                    style="
+                                      color: rgb(246, 104, 104);
+                                      float: left;
+                                      padding-right: 5px;
+                                      font-size: 15px;
+                                    "
+                                  ></i>
+                                  <a href="">swinburne@fe.edu.vn</a>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-6">
+                          <ul>
+                            <li>
+                              <div class="ADDRESS">
+                                <div
+                                  id="ADDRESS-icon"
+                                  style="padding-bottom: 10px"
+                                >
+                                  <i
+                                    class="fa-solid fa-location-dot"
+                                    style="
+                                      color: rgb(246, 104, 104);
+                                      float: left;
+                                      padding-right: 5px;
+                                      font-size: 15px;
+                                    "
+                                  ></i>
+                                  <a
+                                    href="https://maps.app.goo.gl/rABgriNwE5gZwbrF9"
+                                    >Lô 1+2-A14-16 Khu Công Viên Bắc đài tưởng
+                                    niệm, đường 2 tháng 9, Hòa Cường Bắc, Hải
+                                    Châu, Đà Nẵng</a
+                                  >
+                                </div>
+                              </div>
+                              <div class="PHONENUMBER">
+                                <div
+                                  id="PHONENUMER-icon"
+                                  style="padding-bottom: 10px"
+                                >
+                                  <i
+                                    class="fa-solid fa-phone"
+                                    style="
+                                      color: rgb(246, 104, 104);
+                                      float: left;
+                                      padding-right: 5px;
+                                      font-size: 15px;
+                                    "
+                                  ></i>
+                                  <a href="">0896 630 555</a>
+                                </div>
+                              </div>
+                              <div class="EMAIL">
+                                <div class="EMAIL-icon">
+                                  <i
+                                    class="fa-solid fa-envelope"
+                                    style="
+                                      color: rgb(246, 104, 104);
+                                      float: left;
+                                      padding-right: 5px;
+                                      font-size: 15px;
+                                    "
+                                  ></i>
+                                  <a href="">swinburne@fe.edu.vn</a>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col">
+                          <ul>
+                            <li>
+                              <div class="ADDRESS">
+                                <div
+                                  id="ADDRESS-icon"
+                                  style="padding-bottom: 10px"
+                                >
+                                  <i
+                                    class="fa-solid fa-location-dot"
+                                    style="
+                                      color: rgb(246, 104, 104);
+                                      float: left;
+                                      padding-right: 5px;
+                                      font-size: 15px;
+                                    "
+                                  ></i>
+                                  <a
+                                    href="https://maps.app.goo.gl/8yC4nPWiNTuU2Np18"
+                                    >A35, Bạch Đằng, Quận Tân Bình, TP. Hồ Chí
+                                    Minh</a
+                                  >
+                                </div>
+                              </div>
+                              <div class="PHONENUMBER">
+                                <div
+                                  id="PHONENUMER-icon"
+                                  style="padding-bottom: 10px"
+                                >
+                                  <i
+                                    class="fa-solid fa-phone"
+                                    style="
+                                      color: rgb(246, 104, 104);
+                                      float: left;
+                                      padding-right: 5px;
+                                      font-size: 15px;
+                                    "
+                                  ></i>
+                                  <a href="">0387 148 555</a>
+                                </div>
+                              </div>
+                              <div class="EMAIL">
+                                <div class="EMAIL-icon">
+                                  <i
+                                    class="fa-solid fa-envelope"
+                                    style="
+                                      color: rgb(246, 104, 104);
+                                      float: left;
+                                      padding-right: 5px;
+                                      font-size: 15px;
+                                    "
+                                  ></i>
+                                  <a href="">swinburne@fe.edu.vn</a>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer-bottom"
+          style="color: #d1d1d1; background-color: #343642"
+        >
+          <span>COPYRIGHT © 2024 SWINBURNE VIET NAM</span>
+        </div>
+      </div>
+    </div>
+    <!-- END OF FOOTER -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

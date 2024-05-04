@@ -1,0 +1,417 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Upper Menu*/
+.header {
+  width: 100%;
+  height: 140px;
+}
+.first-menu {
+  width: 100%;
+  height: 40px;
+  background-color: #343642;
+  display: flex;
+}
+.fcontainer {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.first-group {
+  color: white;
+  font-size: 16px;
+  display: flex;
+  position: absolute;
+  right: 50px;
+}
+
+.fg {
+  display: inline-block;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  text-transform: none;
+}
+.sub {
+  background-color: #343642;
+  position: relative;
+  font-size: 18px;
+
+  min-width: 160px;
+  list-style-type: none;
+  text-align: left;
+}
+.sub-menu {
+  display: none;
+
+  position: absolute;
+}
+.sub-menu .sub {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  z-index: 2;
+}
+
+#coso:hover .sub-menu {
+  display: block;
+  color: white;
+}
+#sinhvienhientai:hover .sub-menu {
+  display: block;
+  color: white;
+}
+#cuusinhvien:hover .sub-menu {
+  display: block;
+  color: white;
+}
+/*Lower Menu*/
+.second-menu {
+  width: 100%;
+  height: 110px;
+}
+
+.scontainer {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.logo {
+  padding-left: 150px;
+  width: 225px;
+  height: 110px;
+}
+
+.swin {
+  z-index: 5;
+  margin-top: -40px;
+  width: 150px;
+  height: 135px;
+}
+
+.right-second-menu {
+  height: 110px;
+  width: 100%;
+  display: flex;
+  padding-left: 3%;
+}
+.second-group {
+  display: flex;
+}
+.sg {
+  display: inline;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-transform: none;
+  padding-top: 40px;
+  padding-left: 18px;
+  color: black;
+  list-style-type: none;
+}
+.regbtn {
+  width: 390px;
+  display: flex;
+}
+button {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #cd0909;
+  margin-top: 25px;
+  margin-left: 10px;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  width: 230px;
+  height: 50px;
+}
+#search {
+  font-size: 20px;
+  padding-top: 40px;
+  padding-left: 15px;
+}
+li a:hover {
+  color: rgb(255, 77, 0);
+}
+
+#special-hover:hover {
+  color: rgb(255, 77, 0) !important;
+}
+
+.sub-menu1 {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #f6f6f6;
+  width: 100%;
+  z-index: 3;
+  margin-top: 2%;
+  transition: 1s ease 0s;
+  margin-top: 1%;
+}
+.sub-menu1 .sub1 {
+  list-style-type: none;
+  float: left;
+  padding-top: 10px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px 50px;
+}
+#vechungtoi:hover .sub-menu1 {
+  display: block;
+  color: black;
+}
+
+#khoahoc:hover .sub-menu1 {
+  display: block;
+  color: black;
+}
+#tsinh:hover .sub-menu1 {
+  display: block;
+  color: black;
+}
+/**/
+/*Course-body*/
+.main-course {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.course-bg {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+}
+.course-bg-container {
+  max-width: 100%;
+  position: absolute;
+}
+
+.course-all-content {
+  background-size: cover;
+  width: 100%;
+  height: fit-content;
+  background-color: #f6f6f6;
+  position: absolute;
+  margin-top: 600px;
+}
+.course-text-and-banner {
+  z-index: 4;
+
+  width: 90%;
+  height: 6557px;
+  position: absolute;
+  margin: 5%;
+}
+.text {
+  width: 68%;
+  height: 6000px;
+  background-color: white !important;
+  background-size: contain;
+  box-shadow: 3px 3px 3px 3px rgb(212, 210, 210);
+}
+.course-article {
+  padding: 5%;
+  font-size: 120%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.course-article a {
+  text-decoration: none;
+}
+.course-article li:hover {
+  color: black !important;
+}
+.banner {
+  width: 30%;
+  height: 100%;
+  float: right;
+
+  margin-top: -6000px;
+}
+
+.fbanner {
+  list-style-type: none;
+  color: white;
+  font-size: 120%;
+  padding: 5%;
+  border: 1px solid#343642;
+  margin-left: -7.2%;
+  background-color: #292625;
+}
+
+.sbanner {
+  list-style-type: none;
+  color: white;
+  font-size: 120%;
+  padding: 5%;
+  border: 1px solid#343642;
+  margin-left: -7.2%;
+  background-color: #292625;
+}
+
+.fbanner,
+.sbanner:hover {
+  color: white !important;
+}
+
+.find-a-course {
+  padding: 5%;
+  background-color: white !important;
+}
+.fac-all-item {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 300px;
+  justify-content: space-around;
+}
+
+.single-unit {
+  width: 30%;
+  font-size: 12px;
+  margin-left: 3%;
+  background-color: #f6f6f6;
+}
+.single-unit-btn {
+  background-color: #ec2031;
+  color: white;
+  border: none;
+  width: 100%;
+  height: 30px;
+  margin-left: 0;
+  border-radius: 0;
+  font-size: 12px;
+}
+
+#media {
+  margin-top: 180px;
+
+  margin-right: auto;
+}
+
+.video {
+  position: absolute;
+  margin-top: 1240px;
+}
+
+.course-news {
+  position: absolute;
+  width: 100%;
+
+  height: 200px;
+  margin-top: 5%;
+}
+.course-news-container {
+  position: absolute;
+  width: 100%;
+
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-news {
+  width: 60%;
+  height: 700%;
+  background-color: #f6f6f6 !important;
+  margin-top: 5%;
+  margin-left: -10.3%;
+}
+.aside-news {
+  width: 40%;
+  height: 700%;
+  background-color: white;
+  margin-top: 5%;
+}
+.news1 {
+  position: absolute;
+  display: inline-block;
+  height: 345%;
+  width: 40%;
+  background-color: #f6f6f6;
+  margin-left: 3%;
+}
+.news2 {
+  position: absolute;
+  display: inline-block;
+  height: 400%;
+  width: 40%;
+  background-color: #f6f6f6;
+  margin-top: 39.1%;
+  margin-left: 3%;
+}
+/* Footer */
+
+h2 {
+  font-size: 16px;
+}
+
+#footer {
+  margin-top: 6725px;
+  height: 495.4px;
+  background-color: #343642;
+  padding-top: 70px;
+}
+
+.container {
+  max-width: 1190px;
+}
+
+#footer-swinburnelogo {
+  height: 366.4px;
+}
+
+.col-lg-3 .col-md-6 .col-sm-6 .col-12 {
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+  width: 100%;
+}
+
+#footer .single-item-ft h2 {
+  font-size: 16px;
+  color: white;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
+
+#footer ul {
+  list-style: none;
+  padding: 0;
+}
+#SVNAP #TSLC #TS2024 #TTTS #DN #DVSV {
+  font-size: 12px;
+  text-align: start;
+}
+
+.footer-addresses {
+  color: white;
+}
+
+.section {
+  display: block;
+}
+
+.row a {
+  color: #d1d1d1;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#footer .footer-bottom {
+  text-align: center;
+  font-size: 12px;
+  padding: 20px 0;
+  border-top: 1px solid #d1d1d1;
+}
+
+/* End of Footer */
