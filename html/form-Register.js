@@ -23,7 +23,7 @@ form_Register.addEventListener("submit", (e) => {
   let timhieuswinburne1 = document.getElementById("timhieuswinburne1").value;
 
   fetch(
-    `https://webhook.site/dec4bf50-b7de-4efd-a1ec-71b960e95105?inputFullname4=${inputFullname4}&inputBirthDate4=${inputBirthDate4}&inputPhoneNumber4=${inputPhoneNumber4}&inputEmail4=${inputEmail4}&inputSchool4=${inputSchool4}&inputCity4=${inputCity4}&inputMajor4=${inputMajor4}&inputCampus4=${inputCampus4}&timhieuswinburne1=${timhieuswinburne1}`
+    `https://webhook.site/93aa53b2-c0de-42ed-876c-e1dd57e0beba?inputFullname4=${inputFullname4}&inputBirthDate4=${inputBirthDate4}&inputPhoneNumber4=${inputPhoneNumber4}&inputEmail4=${inputEmail4}&inputSchool4=${inputSchool4}&inputCity4=${inputCity4}&inputMajor4=${inputMajor4}&inputCampus4=${inputCampus4}&timhieuswinburne1=${timhieuswinburne1}`
   );
 
   alert("Submit Successfully");
